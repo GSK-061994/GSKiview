@@ -1,1 +1,19 @@
-For testing code
+  abstract class A
+{
+    public abstract void m1();
+}
+
+  class Exam2 extends A {
+
+	public void m1()
+	 {
+		System.out.println("Hi");
+	 }
+ 
+ public static void main(String[] args) {
+	
+	Exam2 obj = new Exam2();
+	obj.m1();
+
+	}
+}
